@@ -16,25 +16,8 @@ int main(int argc, char* argv[]) {
         first.readFile(i);
     }
 
-
-
-
-
-
-
-
-    //reading the words from the file
-//        vector<string> buf;
-//        string file = dir + files[0];
-//        first.readFile(file, buf);
-//        queue<string> chunks;
-//        string chunk = "";
-//        for (int i = 0; i < buf.size() - (first.getChunkSize()-1); i++){
-//            for (int j = i; j < i + first.getChunkSize(); j++){
-//                chunk += buf[j];
-//            }
-//            chunks.push(chunk);
-//            chunk = "";
-//        }
+    //is going to make all the chunks for all the files
+    first.makeChunks();
+    
     return 0;
 }

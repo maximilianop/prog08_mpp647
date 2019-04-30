@@ -62,6 +62,22 @@ void Directory::printFiles () {
     }
 }
 
-queue<string> makeChunks (){
+void Directory::makeChunks () {
 
+    //first for loop iterates through the vector of structs
+    //second for loop iterates through all fixed words in the file
+    //third loop oes through 6 words in the fixed words vector and appends them to word to be added to queue of of chunks
+    for (int l = 0; l < allFiles.size(); l++) {
+        string chunk = "";
+
+        for (int i = 0; i < allFiles[l].fixedWords.size() - (chunkSize - 1); i++) {
+
+            for (int j = i; j < i + chunkSize; j++) {
+                chunk += allFiles[l].fixedWords[j];
+            }
+
+            allFiles[l].chunks.push(chunk);
+            chunk = "";
+        }
+    }
 }

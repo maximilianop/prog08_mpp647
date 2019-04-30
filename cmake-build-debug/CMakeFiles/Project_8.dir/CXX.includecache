@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/paxm/Documents/EE312/Project_8/directory.cpp
+directory.h
+/home/paxm/Documents/EE312/Project_8/directory.h
+dirent.h
+-
+errno.h
+-
+string.h
+-
+fstream
+-
+iostream
+-
+
 /home/paxm/Documents/EE312/Project_8/directory.h
 string
 -

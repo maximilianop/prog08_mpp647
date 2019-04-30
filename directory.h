@@ -52,6 +52,8 @@ class Directory
         //prints all the file names in the directory
         void printFiles ();
 
+        void makeChunks ();
+
 };
 
 #endif //PROJECT_8_FILE_H
