@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/paxm/Documents/EE312/Project_8/directory.h
+string
+-
+vector
+-
+stdio.h
+-
+stdlib.h
+-
+queue
+-
+
+/home/paxm/Documents/EE312/Project_8/main.cpp
+directory.h
+/home/paxm/Documents/EE312/Project_8/directory.h
+
