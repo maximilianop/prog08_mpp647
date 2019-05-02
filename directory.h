@@ -43,8 +43,12 @@ class Directory
         }
 
         //getter for the vector holding all the structs with info on the files
-        vector<files> getFiles () {
+        vector<files>& getFiles () {
             return allFiles;
+        }
+
+        string getFileName (int index){
+            return allFiles[index].fileName;
         }
 
         //getter for the name of the directory (if needed)

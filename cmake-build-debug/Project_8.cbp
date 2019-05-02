@@ -90,6 +90,12 @@
 		<Unit filename="/home/paxm/Documents/EE312/Project_8/directory.h">
 			<Option target="Project_8"/>
 		</Unit>
+		<Unit filename="/home/paxm/Documents/EE312/Project_8/hash.cpp">
+			<Option target="Project_8"/>
+		</Unit>
+		<Unit filename="/home/paxm/Documents/EE312/Project_8/hash.h">
+			<Option target="Project_8"/>
+		</Unit>
 		<Unit filename="/home/paxm/Documents/EE312/Project_8/main.cpp">
 			<Option target="Project_8"/>
 		</Unit>

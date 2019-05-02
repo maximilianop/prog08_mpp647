@@ -6,20 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/paxm/Documents/EE312/Project_8/directory.cpp
-directory.h
-/home/paxm/Documents/EE312/Project_8/directory.h
-dirent.h
--
-errno.h
--
-string.h
--
-fstream
--
-iostream
--
-
 /home/paxm/Documents/EE312/Project_8/directory.h
 string
 -
@@ -32,7 +18,19 @@ stdlib.h
 queue
 -
 
+/home/paxm/Documents/EE312/Project_8/hash.h
+string
+-
+queue
+-
+iostream
+-
+
 /home/paxm/Documents/EE312/Project_8/main.cpp
 directory.h
 /home/paxm/Documents/EE312/Project_8/directory.h
+hash.h
+/home/paxm/Documents/EE312/Project_8/hash.h
+iostream
+-
 
