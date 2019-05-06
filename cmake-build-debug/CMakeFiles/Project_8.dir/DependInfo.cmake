@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/paxm/Documents/EE312/Project_8/directory.cpp" "/home/paxm/Documents/EE312/Project_8/cmake-build-debug/CMakeFiles/Project_8.dir/directory.cpp.o"
   "/home/paxm/Documents/EE312/Project_8/hash.cpp" "/home/paxm/Documents/EE312/Project_8/cmake-build-debug/CMakeFiles/Project_8.dir/hash.cpp.o"
-  "/home/paxm/Documents/EE312/Project_8/main.cpp" "/home/paxm/Documents/EE312/Project_8/cmake-build-debug/CMakeFiles/Project_8.dir/main.cpp.o"
+  "/home/paxm/Documents/EE312/Project_8/plagiarismCatcher.cpp" "/home/paxm/Documents/EE312/Project_8/cmake-build-debug/CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -68,6 +68,8 @@ class Directory
         //goes through the vector of fixed words and creates chunks of the input size for all the files
         void makeChunks ();
 
+        ~Directory() = default;
+
 };
 
 #endif //PROJECT_8_FILE_H

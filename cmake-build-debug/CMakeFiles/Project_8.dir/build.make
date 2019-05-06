@@ -57,18 +57,18 @@ include CMakeFiles/Project_8.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Project_8.dir/flags.make
 
-CMakeFiles/Project_8.dir/main.cpp.o: CMakeFiles/Project_8.dir/flags.make
-CMakeFiles/Project_8.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paxm/Documents/EE312/Project_8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project_8.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_8.dir/main.cpp.o -c /home/paxm/Documents/EE312/Project_8/main.cpp
+CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o: CMakeFiles/Project_8.dir/flags.make
+CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o: ../plagiarismCatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paxm/Documents/EE312/Project_8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o -c /home/paxm/Documents/EE312/Project_8/plagiarismCatcher.cpp
 
-CMakeFiles/Project_8.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_8.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paxm/Documents/EE312/Project_8/main.cpp > CMakeFiles/Project_8.dir/main.cpp.i
+CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paxm/Documents/EE312/Project_8/plagiarismCatcher.cpp > CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.i
 
-CMakeFiles/Project_8.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_8.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paxm/Documents/EE312/Project_8/main.cpp -o CMakeFiles/Project_8.dir/main.cpp.s
+CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paxm/Documents/EE312/Project_8/plagiarismCatcher.cpp -o CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.s
 
 CMakeFiles/Project_8.dir/directory.cpp.o: CMakeFiles/Project_8.dir/flags.make
 CMakeFiles/Project_8.dir/directory.cpp.o: ../directory.cpp
@@ -98,14 +98,14 @@ CMakeFiles/Project_8.dir/hash.cpp.s: cmake_force
 
 # Object files for target Project_8
 Project_8_OBJECTS = \
-"CMakeFiles/Project_8.dir/main.cpp.o" \
+"CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o" \
 "CMakeFiles/Project_8.dir/directory.cpp.o" \
 "CMakeFiles/Project_8.dir/hash.cpp.o"
 
 # External object files for target Project_8
 Project_8_EXTERNAL_OBJECTS =
 
-Project_8: CMakeFiles/Project_8.dir/main.cpp.o
+Project_8: CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o
 Project_8: CMakeFiles/Project_8.dir/directory.cpp.o
 Project_8: CMakeFiles/Project_8.dir/hash.cpp.o
 Project_8: CMakeFiles/Project_8.dir/build.make

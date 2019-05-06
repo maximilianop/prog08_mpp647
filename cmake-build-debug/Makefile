@@ -177,32 +177,32 @@ hash.cpp.s:
 	$(MAKE) -f CMakeFiles/Project_8.dir/build.make CMakeFiles/Project_8.dir/hash.cpp.s
 .PHONY : hash.cpp.s
 
-main.o: main.cpp.o
+plagiarismCatcher.o: plagiarismCatcher.cpp.o
 
-.PHONY : main.o
+.PHONY : plagiarismCatcher.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Project_8.dir/build.make CMakeFiles/Project_8.dir/main.cpp.o
-.PHONY : main.cpp.o
+plagiarismCatcher.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_8.dir/build.make CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o
+.PHONY : plagiarismCatcher.cpp.o
 
-main.i: main.cpp.i
+plagiarismCatcher.i: plagiarismCatcher.cpp.i
 
-.PHONY : main.i
+.PHONY : plagiarismCatcher.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Project_8.dir/build.make CMakeFiles/Project_8.dir/main.cpp.i
-.PHONY : main.cpp.i
+plagiarismCatcher.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_8.dir/build.make CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.i
+.PHONY : plagiarismCatcher.cpp.i
 
-main.s: main.cpp.s
+plagiarismCatcher.s: plagiarismCatcher.cpp.s
 
-.PHONY : main.s
+.PHONY : plagiarismCatcher.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Project_8.dir/build.make CMakeFiles/Project_8.dir/main.cpp.s
-.PHONY : main.cpp.s
+plagiarismCatcher.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_8.dir/build.make CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.s
+.PHONY : plagiarismCatcher.cpp.s
 
 # Help Target
 help:
@@ -219,9 +219,9 @@ help:
 	@echo "... hash.o"
 	@echo "... hash.i"
 	@echo "... hash.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... plagiarismCatcher.o"
+	@echo "... plagiarismCatcher.i"
+	@echo "... plagiarismCatcher.s"
 .PHONY : help
 
 

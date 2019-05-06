@@ -1,0 +1,2 @@
+To use the makefile type "make" and all the files will compile and link. If you wish to clean up your directory a bit, you may type "make clean" and this will get rid of all the .o files that were 
+created in the process of using the makefile. The names of the files that use the makefile are hash.h, hash.cpp, directory.h. directory.cpp, and plagiarismCatcher.cpp. This makefile will produce an executable called plagiarismCatcher. To run the program type "./plagiarismCatcher <path/to/directory/> <chunk_size> <number_of_chunk_similarities> . 

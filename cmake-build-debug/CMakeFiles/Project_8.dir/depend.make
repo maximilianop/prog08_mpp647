@@ -7,7 +7,7 @@ CMakeFiles/Project_8.dir/directory.cpp.o: ../directory.h
 CMakeFiles/Project_8.dir/hash.cpp.o: ../hash.cpp
 CMakeFiles/Project_8.dir/hash.cpp.o: ../hash.h
 
-CMakeFiles/Project_8.dir/main.cpp.o: ../directory.h
-CMakeFiles/Project_8.dir/main.cpp.o: ../hash.h
-CMakeFiles/Project_8.dir/main.cpp.o: ../main.cpp
+CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o: ../directory.h
+CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o: ../hash.h
+CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o: ../plagiarismCatcher.cpp
 

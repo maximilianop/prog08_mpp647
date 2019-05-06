@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Project_8.dir/main.cpp.o"
+  "CMakeFiles/Project_8.dir/plagiarismCatcher.cpp.o"
   "CMakeFiles/Project_8.dir/directory.cpp.o"
   "CMakeFiles/Project_8.dir/hash.cpp.o"
   "Project_8.pdb"
